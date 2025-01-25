@@ -114,7 +114,7 @@ async def start(client, message):
                 btn = [[
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{username}?start="))
                 ],[
-                    InlineKeyboardButton("How To Open Link & Verify", url=https://t.me/+XAtFZIm4GNZmNGNl)
+                    InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
                 ]]
                 await message.reply_text(
                     text="<b>You are not verified !\nKindly verify to continue !</b>",
